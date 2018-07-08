@@ -15,7 +15,7 @@ namespace AdventureWorks.Infrastructure.Data.Repositories
         public HumanResourcesRepository(HumanResourcesDbContext context) : base(context)
         {
             _dbContext = context;
-            _dbContext.Set<Department>().ToList();
+           
         }
 
         
